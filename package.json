@@ -1,0 +1,41 @@
+{
+  "name": "monorepo-docker",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "start": "cross-env NODE_ENV=production run-s clean compile:all run",    
+    "clean": "lerna exec --parallel -- rimraf build typings",
+    "compile:all": "node scripts/build --all",
+    "compile:packages": "node scripts/build",
+    "compile:packages:watch": "lerna exec --parallel --scope @packages/* -- tsc --watch",
+    "run": "lerna run start --stream",    
+    "dev": "cross-env NODE_ENV=development lerna run dev --stream",
+    "dev:api": "cross-env NODE_ENV=development yarn workspace @clients/api dev",
+    "dev:cdn": "cross-env NODE_ENV=development yarn workspace @clients/cdn dev",
+    "dev:service": "cross-env NODE_ENV=development yarn workspace @clients/service dev"    
+  },
+  "workspaces": {
+    "packages": [
+      "clients/*",
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.12",
+    "@types/node": "^15.12.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "lerna": "^4.0.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^1.1.6",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.3.4"
+  }
+}

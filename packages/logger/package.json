@@ -1,0 +1,15 @@
+{
+  "name": "@packages/logger",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "module": "build/index.js",
+  "types": "typings/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/winston": "^2.4.4"
+  }
+}

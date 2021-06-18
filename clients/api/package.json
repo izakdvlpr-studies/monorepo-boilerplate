@@ -1,0 +1,14 @@
+{
+  "name": "@clients/api",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "types": "typings/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/index.js",
+    "dev": "ts-node-dev --respawn --no-notify --transpile-only -r tsconfig-paths/register src/index.ts"
+  },
+  "dependencies": {
+    "@packages/logger": "*"
+  }
+}
