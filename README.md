@@ -30,19 +30,17 @@ A monorepo for connecting multiple projects into one using lerna.
 
 # Usage
 
-```
-- Clone this repository:
-$ git clone https://github.com/zevdvlpr/monorepo-boilerplate
+- Clone this repository: `git clone https://github.com/zevdvlpr/monorepo-boilerplate`.
+- Enter in directory: `cd monorepo-boilerplate`.
+- For install dependencies with `yarn install` or `npm install`.
+- Run the project with `yarn dev`.
 
-- Enter in directory:
-$ cd monorepo-boilerplate
+# Contribute
 
-- For install dependencies:
-$ yarn
-
-- Run the project: 
-$ yarn dev
-```
+- Fork the project.
+- Create a new branch with your changes: `git checkout -b my-feature`.
+- Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
+- Submit your changes: `git push origin my-feature`.
 
 # Credits
 
