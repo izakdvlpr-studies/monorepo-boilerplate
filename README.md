@@ -31,11 +31,11 @@ A monorepo for connecting multiple projects into one using lerna.
 # Usage
 
 - Run `npm install` or `yarn install`.
-- Run `yarn start` and access `http://localhost:3000`.
+- Run `npm run dev` or `yarn dev`.
 
-# Authors
+# Credits
 
-- [zevdvlpr](https://github.com/zevdvlpr)
+- [Kaeltec: AGPL-3.0](https://github.com/kaeltec/client)
 
 <br>
 <br>
