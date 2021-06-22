@@ -30,8 +30,19 @@ A monorepo for connecting multiple projects into one using lerna.
 
 # Usage
 
-- Run `npm install` or `yarn install`.
-- Run `npm run dev` or `yarn dev`.
+```
+- Clone this repository:
+$ git clone https://github.com/zevdvlpr/monorepo-boilerplate
+
+- Enter in directory:
+$ cd monorepo-boilerplate
+
+- For install dependencies:
+$ yarn
+
+- Run the project: 
+$ yarn dev
+```
 
 # Credits
 
@@ -45,6 +56,5 @@ A monorepo for connecting multiple projects into one using lerna.
 <div align="center">
   <h1>Open Source</h1>
   <sub>Copyright © 2021-present, zevdvlpr.</sub>
-  <p>Monorepo Boilerplate <a href="https://github.com/zevdvlpr/monorepo-boilerplate/tree/main/LICENSE">is MIT licensed 💖</a></p>
-  <img src="/src/assets/logo.svg" width="35" />
+  <p>Monorepo Boilerplate <a href="https://github.com/zevdvlpr/monorepo-boilerplate/tree/main/LICENSE">is MIT licensed 💖</a></p>  
 </div>
