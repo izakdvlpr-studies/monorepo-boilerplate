@@ -33,6 +33,7 @@ A monorepo for connecting multiple projects into one using lerna.
 - Clone this repository: `git clone https://github.com/zevdvlpr/monorepo-boilerplate`.
 - Enter in directory: `cd monorepo-boilerplate`.
 - For install dependencies with `yarn install` or `npm install`.
+- Run `yarn compile:packages` for build packages.
 - Run the project with `yarn dev`.
 
 # Contribute
