@@ -6,7 +6,7 @@
       <a href="https://rocketseat.com/"><img src="https://img.shields.io/badge/type-template-green" alt="Repo Type" /></a>
       <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/language-typescript-blue" alt="Repo Main Language" /></a>
       <img src="https://img.shields.io/badge/platform-backend-blueviolet" alt="Project Platform" />                
-      <a href="https://github.com/zevdvlpr/monorepo-boilerplate/tree/main/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr/monorepo-boilerplate?color=red&label=license" alt="Repo License" /></a>
+      <a href="https://github.com/zevdvlpr-studies/monorepo-boilerplate/tree/main/LICENSE"><img src="https://img.shields.io/github/license/zevdvlpr-studies/monorepo-boilerplate?color=red&label=license" alt="Repo License" /></a>
   </p>     
   <p><a href="https://www.linkedin.com/in/zevdvlpr" target="_blank"><img src="https://img.shields.io/twitter/url?label=Connect%20%40zevdvlpr&logo=linkedin&url=https%3A%2F%2Fwww.twitter.com%2zevdvlpr%2F" alt="Follow" /></a><p>
 </div>
@@ -43,6 +43,10 @@ A monorepo for connecting multiple projects into one using lerna.
 - Save your changes and create a commit message telling you what you did: `git commit -m "feature: My new feature"`
 - Submit your changes: `git push origin my-feature`.
 
+## Authors
+
+- [zevdvlpr](https://github.com/zevdvlpr)
+
 ## Credits
 
 - [Kaeltec: AGPL-3.0](https://github.com/kaeltec/client)
@@ -55,5 +59,5 @@ A monorepo for connecting multiple projects into one using lerna.
 <div align="center">
   <h1>Open Source</h1>
   <sub>Copyright © 2021-present, zevdvlpr.</sub>
-  <p>Monorepo Boilerplate <a href="https://github.com/zevdvlpr/monorepo-boilerplate/tree/main/LICENSE">is MIT licensed 💖</a></p>  
+  <p>Monorepo Boilerplate <a href="https://github.com/zevdvlpr-studies/monorepo-boilerplate/tree/main/LICENSE">is MIT licensed 💖</a></p>  
 </div>
