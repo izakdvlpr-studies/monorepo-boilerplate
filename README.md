@@ -1,6 +1,6 @@
 <div align="center">  
   <h1>Monorepo Boilerplate</h1>  
-  <p>📝 A monorepo for connecting multiple projects.</p>    
+  <p>🛠️  A monorepo for connecting multiple projects.</p>    
   <hr />    
   <p>
       <a href="https://rocketseat.com/"><img src="https://img.shields.io/badge/type-template-green" alt="Repo Type" /></a>
